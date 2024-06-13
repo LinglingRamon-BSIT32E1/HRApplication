@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRApplication", "HRApplication\HRApplication.csproj", "{977670CC-804A-449E-9DCD-F85C71B034B5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A} = {5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}
+		{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079} = {CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "attendance-monitoring", "attendance-monitoring\attendance-monitoring.csproj", "{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "onboarding-offboarding", "onboarding-offboarding\onboarding-offboarding.csproj", "{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "payroll", "payroll\payroll.csproj", "{8DF6B2CA-E669-4A2A-8C63-EEB7B0478EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compensation-benefits", "compensation-benefits\compensation-benefits.csproj", "{BB1D036C-96C8-4A79-B88E-4F269B0DAFB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{977670CC-804A-449E-9DCD-F85C71B034B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{977670CC-804A-449E-9DCD-F85C71B034B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{977670CC-804A-449E-9DCD-F85C71B034B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{977670CC-804A-449E-9DCD-F85C71B034B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BF9DE9B-1B24-4E36-BDFB-C8BA72CC888A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEDCCAF-BDE5-4AC2-AA0A-0B61F5A3B079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF6B2CA-E669-4A2A-8C63-EEB7B0478EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF6B2CA-E669-4A2A-8C63-EEB7B0478EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF6B2CA-E669-4A2A-8C63-EEB7B0478EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF6B2CA-E669-4A2A-8C63-EEB7B0478EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1D036C-96C8-4A79-B88E-4F269B0DAFB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1D036C-96C8-4A79-B88E-4F269B0DAFB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1D036C-96C8-4A79-B88E-4F269B0DAFB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1D036C-96C8-4A79-B88E-4F269B0DAFB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69874DB3-B1C0-4ACA-AF56-4CBFD2FEE389}
+	EndGlobalSection
+EndGlobal
